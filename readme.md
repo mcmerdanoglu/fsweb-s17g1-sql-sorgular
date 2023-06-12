@@ -106,7 +106,7 @@ Aşağıda istenilen sonuçlara ulaşabilmek için gerekli SQL sorgularını alt
 
     26) Öğrencileri sınıflarına göre gruplayarak listeleyin.
     	SELECT * FROM ogrenci GROUP BY sinif; (çalışmadı)
-    	SELECT sinif, COUNT(*) AS 'Öğrenci Mevcudu' FROM ogrenci WHERE sinif IS NOT NULL GROUP BY sinif;
+    	SELECT sinif, COUNT(*) AS 'Öğrenci Mevcudu' FROM ogrenci WHERE sinif IS NOT NULL GROUP BY sinif; (çalıştı)
     27)
     [İPUCU: rand() fonksiyonu]
     	SELECT * FROM ogrenci ORDER BY rand();
